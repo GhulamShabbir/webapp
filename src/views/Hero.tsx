@@ -13,12 +13,12 @@ const Hero = () => {
     </div>
     <div className="flex-1">
         <h1 className="scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-5xl mt-24 ml-24">
-          Basit Soap <br />
-          Factory
+          Basit Soap Factroy <br />
+          Faisalabad
         </h1>
         <p className="leading-7 [&:not(:first-child)]:mt-6 ml-24">
           The Ultimate Secret Beauty <br />
-          Add Brightness to your Clothe.
+          Add Brightness to your Clothes.
         </p>
         
         </div>

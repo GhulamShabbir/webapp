@@ -1,6 +1,6 @@
 import Image, { StaticImageData } from "next/image";
 
-import AddToCart from "./AddToCart";
+// import AddToCart from "./AddToCart";
 import { ShoppingCart } from "lucide-react";
 import { Button } from "components/ui/button";
 import Link from "next/link";

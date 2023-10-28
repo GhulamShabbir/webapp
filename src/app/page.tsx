@@ -7,7 +7,7 @@ import Promotion from "@/views/Promotion";
 
 export default function Home() {
   return (
-    <div>
+    <div >
       <Hero />
       
       <Promotion />

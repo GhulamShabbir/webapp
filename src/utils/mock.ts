@@ -1,78 +1,78 @@
 import { Product } from "./types"
-import P1 from "../../public/p1.jpg";
-import P2 from "../../public/p2.jpg"
-import P3 from "../../public/p3.jpg";
-import P4 from "../../public/p4.jpg";
-import P5 from "../../public/p4.jpg";
-import P6 from "../../public/p3.jpg"
-import P7 from "../../public/p1.jpg";
-import P8 from "../../public/p2.jpg";
+import BS15 from "../../public/BS15.jpg";
+import BS16 from "../../public/BS16.jpg"
+import BS17 from "../../public/BS17.jpg";
+import BS18 from "../../public/BS18.jpg";
+import BS20 from "../../public/BS20.jpg";
+import BS21 from "../../public/BS21.jpg"
+import BS24 from "../../public/BS24.jpg";
+import BS25 from "../../public/BS25.jpg";
 
 
 export const Products:Product[] = [
     {
     id: 1,
     name: "Product 1",
-    tagline: "Dress",
+    tagline: "Beauty Soap",
     category: "shop",
-    price: 200,
-    image:P1,
+    price: 70,
+    image:BS15,
     },
     {
         id: 2,
         name: "Product 2",
-        tagline: "Dress",
+        tagline: "Detergent",
         category: "shop",
-        price: 220,
-        image:P2,
+        price: 50,
+        image:BS16,
     },
     {
         id: 3,
         name: "Product 3",
-        tagline: "Dress",
+        tagline: "Beauty Soap",
         category: "shop",
-        price: 320,
-        image:P3,
+        price: 70,
+        image:BS17,
     },
     {
         id: 4,
         name: "Product 4",
-        tagline: "Dress",
+        tagline: "Beauty Soap",
         category: "shop",
-        price: 240,
-        image:P4,
+        price: 80,
+        image:BS18,
     },
     {
         id: 5,
         name: "Product 5",
-        tagline: "Dress",
-        category: "male",
-        price: 205,
-        image:P5,
+        tagline: "Detergent",
+        category: "shop",
+        price: 50,
+        image:BS20,
     },
     {
         id: 6,
         name: "Product 6",
-        tagline: "Dress",
-        category: "kids",
-        price: 270,
-        image:P6,
+        tagline: "Detergent",
+        category: "shop",
+        price: 50,
+        image:BS21,
     },
     {
         id: 7,
         name: "Product 7",
-        tagline: "Dress",
-        category: "male",
-        price: 200,
-        image:P7,
+        tagline: "Detergent",
+        category: "shop",
+        price: 50,
+        image:BS24,
         },
         {
             id: 8,
             name: "Product 8",
-            tagline: "Dress",
+            tagline: "Detergent",
             category: "shop",
-            price: 220,
-            image:P8,
+            price: 50,
+            image:BS25,
         },
 
 ];

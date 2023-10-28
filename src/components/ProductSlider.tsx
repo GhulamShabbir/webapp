@@ -38,7 +38,7 @@ export default function ImageSlider() {
     <div className="mt-20 ">
       <div className="flex flex-col items-center ">
         <Badge className="text-blue-600   bg-white hover:bg-white">
-          PRODUCTS
+          OUR PRODUCTS
         </Badge>
         <h1 className="font-sans font-bold text-4xl text-zinc-800 ">
           Check What We Have
@@ -48,7 +48,7 @@ export default function ImageSlider() {
         {
           <Slider {...settings} ref={slider}>
             {productChecks1.map((product) => (
-              <div className=" hover:scale-110 transition-all" key={product.id}>
+              <div className=" hover:scale-110 transition-all " key={product.id}>
                 <ProductCard
                   key={product.id}
                   title={product.name}
